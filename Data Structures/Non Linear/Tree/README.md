@@ -7,17 +7,6 @@ Trees are a foundational data structure in computer science, offering a blend of
   - **Leaf Node**: A node with no children.
 - **Binary Search Trees (BST)**: A binary tree where the left child’s key is less than its parent, and the right child’s key is greater than or equal to its parent. This organization facilitates fast searching and insertion.
 
-#### Example Binary Search Tree:
-
-```
-        53
-      /    \
-    30      72
-   /  \    /  \
- 14   39  61   84
-/  \    \
-9   34   47
-```
 
 ### Tree Terminology:
 - **Root**: The topmost node in a tree.
@@ -27,6 +16,78 @@ Trees are a foundational data structure in computer science, offering a blend of
 - **Path**: A sequence of nodes connected by edges.
 - **Level**: The depth of a node, where the root is at level 0.
 - **Traversal**: Visiting all nodes in a specific order (Pre-order, In-order, Post-order).
+
+## Binary Search Trees
+
+### Insertion to a Binary Search Tree from left-to-right
+
+Values:  
+65, 32, 44, 21, 78, 12, 87, 66, 5, 99, 35, 82, 71
+
+1. Start with 65 as the root.
+2. Insert 32, which is less than 65, so it goes to the left of 65.
+3. Insert 44, which is greater than 32 but less than 65, so it goes to the right of 32.
+4. Insert 21, which is less than 32, so it goes to the left of 32.
+5. Insert 78, which is greater than 65, so it goes to the right of 65.
+6. Insert 12, which is less than 21, so it goes to the left of 21.
+7. Insert 87, which is greater than 78, so it goes to the right of 78.
+8. Insert 66, which is less than 78 but greater than 65, so it goes to the left of 78.
+9. Insert 5, which is less than 12, so it goes to the left of 12.
+10. Insert 99, which is greater than 87, so it goes to the right of 87.
+11. Insert 35, which is greater than 32 but less than 44, so it goes to the left of 44.
+12. Insert 82, which is greater than 78 but less than 87, so it goes to the left of 87.
+13. Insert 71, which is greater than 66 but less than 78, so it goes to the right of 66.
+
+##### Resulting BST:
+
+```
+        65
+       /   \
+     32     78
+    /  \    /   \
+  21   44  66    87
+ /     /      \   /  \
+12    35      71 82  99
+ / 
+5
+```
+
+### 1. **In-order Traversal (Left, Root, Right):**
+In-order traversal visits the nodes in ascending order for a binary search tree. 
+
+Traversal steps:
+1. Start from the leftmost node (smallest value), visit the left subtree, then the root, and then the right subtree.
+
+**In-order Traversal:**
+```
+5, 12, 21, 32, 35, 44, 65, 66, 71, 78, 82, 87, 99
+```
+
+### 2. **Pre-order Traversal (Root, Left, Right):**
+In pre-order traversal, we visit the root first, then the left subtree, followed by the right subtree.
+
+Traversal steps:
+1. Visit the root, then traverse the left subtree, and finally the right subtree.
+
+**Pre-order Traversal:**
+```
+65, 32, 21, 12, 5, 44, 35, 78, 66, 71, 87, 82, 99
+```
+
+### 3. **Post-order Traversal (Left, Right, Root):**
+In post-order traversal, we visit the left subtree first, then the right subtree, and finally the root.
+
+Traversal steps:
+1. Traverse the left subtree, then the right subtree, and finally visit the root.
+
+**Post-order Traversal:**
+```
+5, 12, 21, 35, 44, 32, 71, 66, 82, 99, 87, 78, 65
+```
+
+These are the three traversals for the given binary search tree!
+
+---
 
 ### Implementing a Tree in Java:
 
