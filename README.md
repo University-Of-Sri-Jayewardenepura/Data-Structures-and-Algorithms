@@ -3,10 +3,12 @@
 ## Menu
 
 ### Linear Data Structures
-- [Arrays](./Linear%20Data%20Structures/Arrays)
-- [Linked Lists](./Linear%20Data%20Structures/Linked%20Lists)
-- [Queues](./Linear%20Data%20Structures/Queues)
-- [Stacks](./Linear%20Data%20Structures/Stacks)
+- #### Static Data Structures
+   - [Arrays](./Data%20Structures/Linear/README.md)
+- #### Dynamic Data Structures
+    - [Linked Lists](./Linear%20Data%20Structures/Linked%20Lists)
+    - [Queues](./Linear%20Data%20Structures/Queues)
+    - [Stacks](./Linear%20Data%20Structures/Stacks)
 
 ### Non-Linear Data Structures
 - [Trees](./Non-Linear%20Data%20Structures/Trees)
