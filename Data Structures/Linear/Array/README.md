@@ -1,4 +1,4 @@
-## Introduction to Arrays
+# Introduction to Arrays
 
 Arrays are a fundamental data structure in computer programming. They provide an organized way to store collections of elements of the same data type, such as integers, floating-point numbers, or characters. Here's a breakdown of arrays based on the information from your sources:
 
