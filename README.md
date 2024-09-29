@@ -4,15 +4,16 @@
 
 ### Linear Data Structures
 - #### Static Data Structures
-   - [Arrays](./Data%20Structures/Linear/Array)
+   - [Arrays](./Data%20Structures/Linear/Array/README.md)
 - #### Dynamic Data Structures
-    - [Stacks](./Data%20Structures/Linear/Stack/)
+    - [Stacks](./Data%20Structures/Linear/Stack/README.md)
+    - [Queues](./Data%20Structures/Linear/Queue/README.md)
     - [Linked Lists](./Linear%20Data%20Structures/Linked%20Lists)
-    - [Queues](./Linear%20Data%20Structures/Queues)
+
 
 
 ### Non-Linear Data Structures
-- [Trees](./Data%20Structures/Non%20Linear/Tree)
+- [Trees](./Data%20Structures/Non%20Linear/Tree/README.md)
 - [Graphs](./Non-Linear%20Data%20Structures/Graphs)
 
 ### Algorithms
