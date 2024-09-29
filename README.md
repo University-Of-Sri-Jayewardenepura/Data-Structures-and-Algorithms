@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-## Menu
+## Data Structures
 
 ### Linear Data Structures
 - #### Static Data Structures
@@ -8,15 +8,13 @@
 - #### Dynamic Data Structures
     - [Stacks](./Data%20Structures/Linear/Stack/README.md)
     - [Queues](./Data%20Structures/Linear/Queue/README.md)
-    - [Linked Lists](./Linear%20Data%20Structures/Linked%20Lists)
-
-
+    - [Linked Lists](./Data%20Structures/Linear/Linked%20List/README.md)
 
 ### Non-Linear Data Structures
 - [Trees](./Data%20Structures/Non%20Linear/Tree/README.md)
 - [Graphs](./Non-Linear%20Data%20Structures/Graphs)
 
-### Algorithms
+## Algorithms
 - [Searching](./Algorithms/Searching)
 - [Sorting](./Algorithms/Sorting)
 - [Dynamic Programming](./Algorithms/Dynamic%20Programming)
