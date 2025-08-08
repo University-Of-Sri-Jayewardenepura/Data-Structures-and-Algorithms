@@ -1,11 +1,16 @@
 # Data Structures and Algorithms
 
-Welcome! This repository is organized around two modules. Use the menus below; every item links to a directory-level README.
+Welcome! This repository is organized around two modules with comprehensive implementations and explanations.
 
-- DSA: Foundations (core data structures, elementary algorithms)
-- ADSA: Advanced topics (advanced sorting, balanced trees, hashing theory, heaps, graph algorithms)
+## Introduction
+- [Introduction to DSA](./Intro/README.md) - Core concepts and definitions
+- [Complexity Analysis](./Intro/Complexity%20Analysis/README.md) - Big-O, Omega, Theta notations
 
-Note: DSA.md and ADSA.md are outlines for reference only; navigation is managed here.
+## Module Structure
+- **DSA**: Foundations (core data structures, elementary algorithms, basic complexity)
+- **ADSA**: Advanced topics (advanced sorting, self-balancing trees, hashing theory, heaps, graph algorithms)
+
+*Note: DSA.md and ADSA.md contain detailed outlines for reference.*
 
 ## DSA (Foundations)
 
