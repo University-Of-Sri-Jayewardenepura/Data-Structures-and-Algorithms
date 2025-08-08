@@ -1,4 +1,4 @@
-package adsa.rbt;
+package dsa.datastructures.tree;
 
 public class RedBlackTree<T extends Comparable<T>> {
     private static final boolean RED=true, BLACK=false;

@@ -1,4 +1,4 @@
-package adsa.heaps;
+package dsa.datastructures.heap;
 
 import java.util.Arrays;
 
